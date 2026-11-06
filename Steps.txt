@@ -17,4 +17,128 @@ pip install name_of_package
 
 5. Push to github .
 
--check , github is here or not ,  git --version
+-check , github is here or not ,  git --version , git status
+
+
+
+
+
+
+
+"Git additional Reading"
+
+
+
+pwd
+ls
+
+git 
+
+git status
+
+git config --global user.name "Aman Sah"
+git config --global user.email "your-github-email@example.com"
+
+git config --global --list
+
+
+https://github.com/USERNAME/REPOSITORY_NAME.git
+
+git remote add origin https://github.com/USERNAME/REPOSITORY_NAME.git
+
+git remote -v   #verify 
+
+git add .
+git status
+git commit -m "Initial commit"
+git commit -m "Added AIS data preprocessing and EDA"
+
+git branch -M main
+git push -u origin main
+
+
+
+
+# 1. Navigate to project
+cd "D:/path/to/your/project"
+
+# 2. Initialize Git (first time only)
+git init
+
+# 3. Add GitHub remote (first time only)
+git remote add origin https://github.com/USERNAME/REPOSITORY_NAME.git
+
+# 4. Stage all files
+git add .
+
+# 5. Commit changes
+git commit -m "Initial commit"
+
+# 6. Set branch
+git branch -M main
+
+# 7. Push to GitHub
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Large datasets
+data/
+datasets/
+*.csv
+*.parquet
+
+#####
