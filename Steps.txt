@@ -1,0 +1,20 @@
+1. Create a virtual environment
+
+python -m venv name_of_venv
+
+2. Activate your venv
+
+name_of_venv\Scripts\activate
+
+3. Install your python packages
+
+pip install name_of_package
+(Numpy : numpy, Pandas: pandas,Seaborn ; seaborn )
+
+
+4. Write your code here . 
+
+
+5. Push to github .
+
+-check , github is here or not ,  git --version
